@@ -1,0 +1,201 @@
+body {
+	font-family: "Maven Pro", sans-serif;
+	/*color: #576f7f;*/
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    font-size: 1.2em;
+    box-sizing: border-box;
+}
+
+.container {
+	margin:0 auto;
+	max-width:1040px;
+	padding: 0 20px;
+	width: 100%;
+	box-sizing:	border-box;	
+}
+
+.clear {
+	clear: both;
+}
+
+.grid {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px 0 5px 10px;
+	display: flex;
+}
+
+.grid__with-gutters {
+	/*margin-left: -8px;*/
+}
+
+.grid__col{
+	float: left;
+}
+
+.grid__col--1 {
+	width: 8.3333%;
+}
+.grid__col--2 {
+	width: 16.6667%;
+}
+
+.grid__col--3 {
+	width: 25%;
+}
+
+.grid__col--4 {
+	width: 33.3333%;
+}
+
+.grid__col--5 {
+	width: 41.6667%;
+}
+
+.grid__col--6 {
+	width: 50%;
+}
+
+.grid__col--7 {
+	width: 58.3333%;
+}
+
+.grid__col--8 {
+	width: 66.6667%;
+}
+
+.grid__col--9 {
+	width: 75%;
+}
+
+.grid__col--10 {
+	width: 83.3333%;
+}
+
+.grid__col--11 {
+	width: 91.6667%;
+}
+
+.grid__col--12 {
+	width: 100%;
+}
+
+
+.global-header {
+	background-image: url("../images/head_bg.png");
+	overflow: hidden;
+	min-height: 500px;
+} 
+.global-nav__left {
+	float: left;
+}
+.global-nav__logo {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.global-nav__right {
+	float: right;
+	width: 500px;
+}
+
+.global-nav__menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.global-nav__item {
+	float: left;
+	line-height: 45px;
+}
+
+.global-nav__item--links {
+	text-decoration: none;
+	font-size: .8em;
+	height: 45px;
+	display: block;
+	color: #ffffff;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+.global-nav {
+	    border-bottom: solid 1px rgba(255,255,255,0.088);
+	    margin-bottom: 50px;
+}
+
+.global-header__intro--title {
+	font-family: "Maven Pro", sans-serif;
+	margin: 0 0 24px;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.27;
+    text-align: center;
+    color: #ffffff;
+}
+
+.global-header__intro {
+	padding-bottom: 20px;
+}
+
+.global-header__intro--subtitle {
+	font-family: "Maven Pro", sans-serif;
+	padding: 0;
+    margin: 0 0 32px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.75;
+    text-align: center;
+    color: #ffffff;
+}
+.global-header__cto {
+	text-align: center;
+	padding-top: 30px;
+}
+.button--green {
+    color: #ffffff;
+    background-color: #3bb75e;
+    border-color: #3bb75e;
+    font-weight: normal;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
+    transition: box-shadow 80ms cubic-bezier(0.6, 0.1, 0.4, 0.9), 
+    background-color 80ms cubic-bezier(0.6, 0.1, 0.4, 0.9);
+}
+.button {
+	display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    max-width: unset;
+    min-width: unset;
+    margin: 0;
+}
+
+.button--large {
+	border-radius: 3px;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    padding:	0 2em;
+}
+
+.services {
+	background: #fafafa;
+	height: 400px;
+	overflow: hidden;
+}
+
+/*.nextservices {
+	background: green;
+	height: 400px;
+	overflow: hidden;
+}*/
+
+
+
+
+
