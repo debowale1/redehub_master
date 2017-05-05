@@ -26,6 +26,19 @@ h1, h2, h3, h4, h5, h6, div, p, ul {
 	box-sizing:	border-box;	
 }
 
+.top {
+	font-family: "FontAwesome";
+	color: hsl(0, 0%, 100%);
+	color: #fff;
+    padding: 5px 10px;
+    position: fixed;
+    right: 30px;
+    top: 85vh;
+    cursor: pointer;
+    z-index: 9999;
+    border-radius: 50%;
+}
+
 
 .pull-right {
     float: right!important;
@@ -158,7 +171,7 @@ h1, h2, h3, h4, h5, h6, div, p, ul {
 	color: #ffffff;
 	padding: 5px 10px;
 }
-.global-nav__item--links.hover {
+.global-nav__item--links:hover {
 	color: #aab7be;
 }
 .global-nav {
