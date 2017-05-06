@@ -30,14 +30,17 @@ h1, h2, h3, h4, h5, h6, div, p, ul {
 	font-family: "FontAwesome";
 	color: hsl(0, 0%, 100%);
 	color: #fff;
-    padding: 5px 10px;
-    position: fixed;
-    right: 30px;
-    top: 85vh;
     cursor: pointer;
-    z-index: 9999;
-    border-radius: 50%;
+	text-align:center; 
+	padding: 5px 10px;
+	font-weight: normal;
+	text-decoration: none;
+	position: fixed;
+    right: 30px;
+    top: 85vh;	
+	z-index: 9999;    
 }
+
 
 
 .pull-right {
@@ -539,7 +542,7 @@ img {
 
 }
 
-@media all and (max-width: 789px) {
+@media (max-width: 789px) {
 	.grid__col--4 {
 		width: 100%;
 	}
@@ -550,19 +553,12 @@ img {
 	}
 }
 
-@media all and (max-width: 1105px){
+@media (max-width: 1105px){
 
 	.grid {
 		display: inline-block;
 		width: 100%;
 		box-sizing: border-box;
 		display: flex;
+	}
 }
-
-
-
-
-
-
-
-
