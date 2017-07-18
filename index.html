@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Redehub | A wired connection</title>
 
 	<!-- stylesheet -->
-    <link rel="stylesheet" type="text/css" href="styles/custom.css">
+    <!-- <link rel="stylesheet" type="text/css" href="styles/custom.css"> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
+    
 	<link rel="stylesheet" type="text/css" href="styles/font-awesome.min.css">
 
 	<!-- animate.css -->
@@ -24,6 +27,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 
 	<!-- metas -->
+    <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
 	<meta name="description" content="Redehub is a technology company based in kaduna. We develope softwares for businesses ranging from school, local businesses, higher institutions etc.">
 
@@ -54,7 +58,7 @@
 	
 </head>
 <body>
-    <a class="top button button--green" href="#top"><i class="fa fa-chevron-up"></i></a>
+    <a class="top button button--green" style="display: none" href="#top"><i class="fa fa-chevron-up"></i></a>
 	<header class="global-header">
 		<nav class="global-nav">
 	        <div class="container">
@@ -102,12 +106,12 @@
     			<h3 class="global-header__intro--subtitle animated slideInUp">Just tell us what you want and it shall be done</h3>
     		</div>
     		<div class="global-header__cto">
-    			<a href="" class="button button--green button--large">Get In Touch!</a>
+    			<a href="mailto:contact@redehub.com.ng" class="button button--green button--large">Get In Touch!</a>
     		</div>
     	</section>
 	</header>
 
-	<section id="services" name="services" class="page-section page-section--services"> 
+	<section id="services" class="page-section page-section--services"> 
     	<div class="container">    		
 
     		<div class="">
@@ -155,14 +159,14 @@
     </section><!-- end services section -->
 
 
-    <section id="products" name="products" class="page-section page-section--products">
+    <section id="products" class="page-section page-section--products">
     	<div class="container"> 
 
     		<div class="">
 		      <div class="grid__col grid__col--12">
 		        <header class="page-section-header">
 		          <h2 class="page-section-header__primary-title">Below are some of our products</h2>
-		            <h3 class="page-section-header__secondary-title">let's handle the techinical aspect of the business</h3>
+		            <h3 class="page-section-header__secondary-title">let's handle the technical aspect of the business</h3>
 		        </header>
 		      </div>
 		    </div>
@@ -170,13 +174,9 @@
     		<div class="grid grid__col grid__col--6">
     			<div class="feature-product features-text wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
                     <h3 class="feature-product__name">Schoolite</h3>
-                    <p class="feature-product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    			consequat.adipisicing elit, sed do eiusmod
-	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    			consequat.
+                    <p class="feature-product__description">
+                        We have developed solution to help you stay ahead of customer
+                        satisfaction trends. Our solution easily integrates with other solutions and can enable your school to fully realize the benefit of improved productivity. Schoolite is a flexible school information management system with simple and interractive interfaces. It comes with core modules such as grading and report system, improve and fast registration, flexible communication channel, payment integration, custom staff email address etc.
 	    			</p>
 
 	    			<div class="feature-product__button-container">
@@ -202,17 +202,12 @@
     		<div class="grid grid__col grid__col--6">
     			<div class="feature-product features-text wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
                     <h3 class="feature-product__name">Ivote</h3>
-                    <p class="feature-product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    			consequat.adipisicing elit, sed do eiusmod
-	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    			consequat.
+                    <p class="feature-product__description">
+                        Ivote is a flexible web-based voting system that makes election less cumbersome. It can be used for school election, departmental and faculty elections, it can also be used in organisation elections where voting is required. ivote ships with voters and candidate registration modules, live view of election proceedings by electoral officers and collection of election result in different file formats.
 	    			</p>
 
 	    			<div class="feature-product__button-container">
-	    				<a class="feature-product__link button button--default button--small" href="http://www.schoolite.redehub.com.ng" target="_blank">Read More</a>
+	    				<a class="feature-product__link button button--default button--small" href="http://www.ivote.redehub.com.ng" target="_blank">Read More</a>
 	    			</div>    				
                 </div>
     		</div>
@@ -229,32 +224,53 @@
     		<div class="partners">
 
 			    <div class="partners__brand">
-			    	<img src="images/logo.gif" width="300">
+                    <a href="http://www.lampbearers.com" target="_blank">
+    			    	<img src="images/labis.png" alt="lamp bearers logo" height="85">
+                    </a>
 			    </div>
 			    <div class="partners__brand" style="text-align: center;">
-			    	<img src="images/labis.png" height="85">
+			    	<a href="http://pinkladybathandbody.com/" target="_blank">
+                        <img src="images/pinklady.jpeg" alt="images" height="85">
+                    </a>
 			    </div>
+
 			    <div class="partners__brand">
-			    	<img src="images/logo.gif" width="300">
+                    <a href="http://pinkladybathandbody.com/" target="_blank">
+                        <img src="images/logo.gif" alt="images" width="300">
+                    </a>
+                </div>
+                <div class="partners__brand">
+                    <a href="http://pinkladybathandbody.com/" target="_blank">
+                        <img src="images/logo.gif" alt="images" width="300">
+                    </a>
+                </div>
+                <div class="partners__brand">
+                    <a href="http://pinkladybathandbody.com/" target="_blank">
+                        <img src="images/logo.gif" alt="images" width="300">
+                    </a>
+                </div>
+                <div class="partners__brand">
+                    <a href="http://pinkladybathandbody.com/" target="_blank">
+                        <img src="images/logo.gif" alt="images" width="300">
+                    </a>
+                </div>
+                <div class="partners__brand">
+                    <a href="http://pinkladybathandbody.com/" target="_blank">
+                        <img src="images/logo.gif" alt="images" width="300">
+                    </a>
+                </div>
+                <div class="partners__brand">
+                    <a href="http://pinkladybathandbody.com/" target="_blank">
+                        <img src="images/logo.gif" alt="images" width="300">
+                    </a>
+                </div>
+                <div class="partners__brand">
+                    <a href="http://pinkladybathandbody.com/" target="_blank">
+    			    	<img src="images/logo.gif" alt="images" width="300">
+                    </a>
 			    </div>
-			    <div class="partners__brand">
-			    	<img src="images/logo.gif" width="300">
-			    </div>
-			    <div class="partners__brand">
-			    	<img src="images/logo.gif" width="300">
-			    </div>
-			    <div class="partners__brand">
-			    	<img src="images/logo.gif" width="300">
-			    </div>
-			    <div class="partners__brand">
-			    	<img src="images/logo.gif" width="300">
-			    </div>
-			    <div class="partners__brand">
-			    	<img src="images/logo.gif" width="300">
-			    </div>
-			    <div class="partners__brand">
-			    	<img src="images/logo.gif" width="300">
-			    </div>			    
+
+			    		    
 			    
 			</div>
     	</div>
@@ -265,7 +281,7 @@
 
 
     <!-- contact us -->
-    <section id="contact" name="contact" class="page-section page-section--contact">
+    <section id="contact" class="page-section page-section--contact">
     	<div class="container"> 
 
     		<div class="">
@@ -348,7 +364,7 @@
     					</li>
 
     					<li class="page-section-footer__item">
-    						<p>08073697984 | 08095034525</p>
+    						<p>08073697984 | 08136486388</p>
     					</li>
 
     					<li class="page-section-footer__item">
@@ -362,7 +378,10 @@
 
     			<div class="grid__col grid__col--12">
     				<p class="page-section-footer__copyright">
-    					copyright &copy; 2017 <i><a class="page-section-footer__link" href="http://redehub.com.ng" target="_blank">redehub.com.ng</a></i>
+    					copyright &copy; 2017 Made with &#10084; by 
+                         <i>
+                             <a class="page-section-footer__link" href="http://www.redehub.com.ng" target="_blank">redehub.com.ng</a>
+                         </i>
     				</p>
     			</div>
 
