@@ -499,7 +499,7 @@ img {
     display: none;
 }*/
 
-.hamburger {	
+/*.hamburger {	
 	background-color: white;
 	cursor: pointer;
     display: none;
@@ -511,6 +511,50 @@ img {
     transition: all 0.3s ease-in-out;
     width: 1.25em;
     box-sizing:border-box;
+}*/
+
+.hamburger {
+	display: none;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: 45px;
+}
+
+.hamburger:hover {
+	transform: translateY(-1px);
+}
+
+.hamburger span {
+	border: 1px solid #fff;
+	display: block;
+    margin: 8px 0;
+}
+
+.hamburger span .last-child {
+	margin-bottom: 0;
+}
+
+.nav-mobile {
+	background: #535353;
+    padding-left: 30px;
+    width: 256px;
+}
+
+.nav-mobile ul {
+	list-style: none;
+}
+
+.nav-mobile a {
+	display: block;
+	padding: 10px 0;
+	color: #fff;
+	text-decoration: none;
+}
+.nav-mobile a:hover {
+	color: #569E3D; /*#79D858);*/
+	transform: translateY(-1px);
 }
 
 
@@ -524,12 +568,9 @@ img {
 	}
 
 	.global-nav__menu {
-		max-height: 0;
+		display: none;
 	}
 
-	.show {
-		max-height: 20em;
-	}
 	.global-nav__left {
 		display: block;
 	    width: 100%;
@@ -551,14 +592,8 @@ img {
 		height: 50px;
 	}
 
-	/*.handle {
-		padding-left: 0;
-		display: block;		
-	}*/
-
 	.hamburger {
 	    display: block;
-	    padding-top: 2px; 
 	}
 
 }

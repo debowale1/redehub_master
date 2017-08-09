@@ -23,7 +23,9 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-	<!-- custom stylesheet -->
+	<!-- slideout stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles/slideout.css">
+    <!-- custom stylesheet -->
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 
 	<!-- metas -->
@@ -58,344 +60,373 @@
 	
 </head>
 <body>
+
+    <nav class="nav-mobile" id="mobile-menu" style="display: none;">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#products">Products</a>
+            </li>
+            <li>
+                <a href="#partners">Partners</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="http://blog.redehub.com.ng" >Blog</a>
+            </li>
+        </ul>
+    </nav>
+
     <a class="top button button--green" style="display: none" href="#top"><i class="fa fa-chevron-up"></i></a>
-	<header class="global-header">
-		<nav class="global-nav">
-	        <div class="container">
-	            <div class="global-nav__left">
-	                <a href="http://www.redehub.com.ng" class="global-nav__logo">
-	                    <!-- <img src="images/logo.svg" alt="Redehub" title="">	                     -->
-	                    <h1 class="global-nav__logo--text" >RedeHub</h1>
-	                </a>
-	                
-	            </div>
-	            <nav class="global-nav__right">
 
-	            		<span class="hamburger"></span>
-		                <span class="hamburger"></span>
-		                <span class="hamburger"></span>
-	            	
-	                <ul class="global-nav__menu">
-	                    <li class="global-nav__item">
-		                    <a class="global-nav__item--links" href="index.html">Home</a>
-		                </li>
-	                    <li class="global-nav__item">
-		                    <a class="global-nav__item--links" href="#services">Services</a>
-		                </li>
-	                    <li class="global-nav__item">
-		                    <a class="global-nav__item--links" href="#products">Products</a>
-		                </li>
-		                <li class="global-nav__item">
-		                    <a class="global-nav__item--links" href="#partners">Partners</a>
-		                </li>
-	                    <li class="global-nav__item">
-		                    <a class="global-nav__item--links" href="#contact">Contact</a>
-	                    </li>
-	                    <li class="global-nav__item">
-		                    <a class="global-nav__item--links" href="http://blog.redehub.com.ng" >Blog</a>
-	                    </li>
-	                </ul>
-	                <!-- <div class="handle">Menu</div> -->
-	            </nav>
-	            <div class="clear"></div>
-	        </div>
-    	</nav>
-    	<section class="global-header__intro">
-    		<div class="global-header__intro--container">
-    			<h1 class="global-header__intro--title animated zoomIn">World class ICT services and Solutions</h1>
-    			<h3 class="global-header__intro--subtitle animated slideInUp">Just tell us what you want and it shall be done</h3>
-    		</div>
-    		<div class="global-header__cto">
-    			<a href="mailto:contact@redehub.com.ng" class="button button--green button--large">Get In Touch!</a>
-    		</div>
-    	</section>
-	</header>
+    <div id="main">
+    	<header class="global-header">
+    		<nav class="global-nav">
+    	        <div class="container">
+    	            <div class="global-nav__left">
+    	                <a href="http://www.redehub.com.ng" class="global-nav__logo">
+    	                    <!-- <img src="images/logo.svg" alt="Redehub" title="">	                     -->
+    	                    <h1 class="global-nav__logo--text" >RedeHub</h1>
+    	                </a>
+    	                
+    	            </div>
 
-	<section id="services" class="page-section page-section--services"> 
-    	<div class="container">    		
-
-    		<div class="">
-		      <div class="grid__col grid__col--12">
-		        <header class="page-section-header">
-		          <h2 class="page-section-header__primary-title">Focus more on your business development</h2>
-		            <h3 class="page-section-header__secondary-title">let's handle the techinical aspect of the business</h3>
-		        </header>
-		      </div>
-		    </div>
-
-    		<div class="grid__col grid__col--4">
-                <div class="feature-services">
-                    <div class="feature-services__icon">
-                        <div class="svg svg--training"></div>
+                    <div class="hamburger">
+                        <span class="first-child"></span>
+                        <span></span>
+                        <span class="last-child"></span>
                     </div>
-                    <h3 class="feature-services__title">ICT Training</h3>
-                    <p class="feature-services__description">Get trained in different Information &amp; Communication Technogies courses to keep you or your bussiness ahead amidst competitor. We train with latest technologies and best practices. Our courses span through different area of technologies involving Web design and developement, Programming languages, Networking, ICT fundamentals, etc.</p>
-                </div>
-            </div>
 
-            <div class="grid__col grid__col--4">
-                <div class="feature-services">
-                    <div class="feature-services__icon">
-                        <div class="svg svg--responsive"></div>
+    	            <nav class="global-nav__right">    	            	
+    	                <ul class="global-nav__menu">
+    	                    <li class="global-nav__item">
+    		                    <a class="global-nav__item--links" href="index.html">Home</a>
+    		                </li>
+    	                    <li class="global-nav__item">
+    		                    <a class="global-nav__item--links" href="#services">Services</a>
+    		                </li>
+    	                    <li class="global-nav__item">
+    		                    <a class="global-nav__item--links" href="#products">Products</a>
+    		                </li>
+    		                <li class="global-nav__item">
+    		                    <a class="global-nav__item--links" href="#partners">Partners</a>
+    		                </li>
+    	                    <li class="global-nav__item">
+    		                    <a class="global-nav__item--links" href="#contact">Contact</a>
+    	                    </li>
+    	                    <li class="global-nav__item">
+    		                    <a class="global-nav__item--links" href="http://blog.redehub.com.ng" >Blog</a>
+    	                    </li>
+    	                </ul>
+    	                <!-- <div class="handle">Menu</div> -->
+    	            </nav>
+    	            <div class="clear"></div>
+    	        </div>
+        	</nav>
+        	<section class="global-header__intro">
+        		<div class="global-header__intro--container">
+        			<h1 class="global-header__intro--title animated zoomIn">World class ICT services and Solutions</h1>
+        			<h3 class="global-header__intro--subtitle animated slideInUp">Just tell us what you want and it shall be done</h3>
+        		</div>
+        		<div class="global-header__cto">
+        			<a href="mailto:contact@redehub.com.ng" class="button button--green button--large">Get In Touch!</a>
+        		</div>
+        	</section>
+    	</header>
+
+    	<section id="services" class="page-section page-section--services"> 
+        	<div class="container">    		
+
+        		<div class="">
+    		      <div class="grid__col grid__col--12">
+    		        <header class="page-section-header">
+    		          <h2 class="page-section-header__primary-title">Focus more on your business development</h2>
+    		            <h3 class="page-section-header__secondary-title">let's handle the techinical aspect of the business</h3>
+    		        </header>
+    		      </div>
+    		    </div>
+
+        		<div class="grid__col grid__col--4">
+                    <div class="feature-services">
+                        <div class="feature-services__icon">
+                            <div class="svg svg--training"></div>
+                        </div>
+                        <h3 class="feature-services__title">ICT Training</h3>
+                        <p class="feature-services__description">Get trained in different Information &amp; Communication Technogies courses to keep you or your bussiness ahead amidst competitor. We train with latest technologies and best practices. Our courses span through different area of technologies involving Web design and developement, Programming languages, Networking, ICT fundamentals, etc.</p>
                     </div>
-                    <h3 class="feature-services__title">ICT Solutions</h3>
-                    <p class="feature-services__description">We provide world class ICT solutions tailored to your business or individual needs. Our solutions are aimed at serving your needs at affordable prices. Contact us for website design or redesigning, web, desktop and mobile applications development, CCTV installation, Networking, social media marketting/management, Search engine optimization etc. view some of our products</p>
                 </div>
-            </div>
 
-            <div class="grid__col grid__col--4">
-                <div class="feature-services">
-                    <div class="feature-services__icon">
-                        <div class="svg svg--publication"></div>
+                <div class="grid__col grid__col--4">
+                    <div class="feature-services">
+                        <div class="feature-services__icon">
+                            <div class="svg svg--responsive"></div>
+                        </div>
+                        <h3 class="feature-services__title">ICT Solutions</h3>
+                        <p class="feature-services__description">We provide world class ICT solutions tailored to your business or individual needs. Our solutions are aimed at serving your needs at affordable prices. Contact us for website design or redesigning, web, desktop and mobile applications development, CCTV installation, Networking, social media marketting/management, Search engine optimization etc. view some of our products</p>
                     </div>
-                    <h3 class="feature-services__title">Designs/Publication</h3>
-                    <p class="feature-services__description">Get high quality designs and printing/publication. These includes flex/banner design and printing, books, sourvenier, branding, examination question paper and answer booklets, logo design, fliers/handbills, billboards, project printing etc.
-                    </p>
                 </div>
-            </div>
 
-    	</div>  
-    	<div class="clear"></div> 	
-    </section><!-- end services section -->
-
-
-    <section id="products" class="page-section page-section--products">
-    	<div class="container"> 
-
-    		<div class="">
-		      <div class="grid__col grid__col--12">
-		        <header class="page-section-header">
-		          <h2 class="page-section-header__primary-title">Below are some of our products</h2>
-		            <h3 class="page-section-header__secondary-title">let's handle the technical aspect of the business</h3>
-		        </header>
-		      </div>
-		    </div>
-
-    		<div class="grid grid__col grid__col--6">
-    			<div class="feature-product features-text wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-                    <h3 class="feature-product__name">Schoolite</h3>
-                    <p class="feature-product__description">
-                        We have developed solution to help you stay ahead of customer
-                        satisfaction trends. Our solution easily integrates with other solutions and can enable your school to fully realize the benefit of improved productivity. Schoolite is a flexible school information management system with simple and interractive interfaces. It comes with core modules such as grading and report system, improve and fast registration, flexible communication channel, payment integration, custom staff email address etc.
-	    			</p>
-
-	    			<div class="feature-product__button-container">
-	    				<a class="feature-product__link button button--default button--small" href="http://www.schoolite.redehub.com.ng" target="_blank">Read More</a>
-	    			</div>    				
+                <div class="grid__col grid__col--4">
+                    <div class="feature-services">
+                        <div class="feature-services__icon">
+                            <div class="svg svg--publication"></div>
+                        </div>
+                        <h3 class="feature-services__title">Designs/Publication</h3>
+                        <p class="feature-services__description">Get high quality designs and printing/publication. These includes flex/banner design and printing, books, sourvenier, branding, examination question paper and answer booklets, logo design, fliers/handbills, billboards, project printing etc.
+                        </p>
+                    </div>
                 </div>
-    		</div>
 
-    		<div class="grid grid__col grid__col--6">
-    			<div class="feature-product__image wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
-    				<img src="images/dash2.png" alt="dashboard" class="img-responsive pull-right">
+        	</div>  
+        	<div class="clear"></div> 	
+        </section><!-- end services section -->
+
+
+        <section id="products" class="page-section page-section--products">
+        	<div class="container"> 
+
+        		<div class="">
+    		      <div class="grid__col grid__col--12">
+    		        <header class="page-section-header">
+    		          <h2 class="page-section-header__primary-title">Below are some of our products</h2>
+    		            <h3 class="page-section-header__secondary-title">let's handle the technical aspect of the business</h3>
+    		        </header>
+    		      </div>
+    		    </div>
+
+        		<div class="grid grid__col grid__col--6">
+        			<div class="feature-product features-text wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+                        <h3 class="feature-product__name">Schoolite</h3>
+                        <p class="feature-product__description">
+                            We have developed solution to help you stay ahead of customer
+                            satisfaction trends. Our solution easily integrates with other solutions and can enable your school to fully realize the benefit of improved productivity. Schoolite is a flexible school information management system with simple and interractive interfaces. It comes with core modules such as grading and report system, improve and fast registration, flexible communication channel, payment integration, custom staff email address etc.
+    	    			</p>
+
+    	    			<div class="feature-product__button-container">
+    	    				<a class="feature-product__link button button--default button--small" href="http://www.schoolite.redehub.com.ng" target="_blank">Read More</a>
+    	    			</div>    				
+                    </div>
+        		</div>
+
+        		<div class="grid grid__col grid__col--6">
+        			<div class="feature-product__image wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+        				<img src="images/dash2.png" alt="dashboard" class="img-responsive pull-right">
+        			</div>
+        		</div>
+
+        		
+
+        		<div class="grid grid__col grid__col--6">
+        			<div class="feature-product__image wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+        				<img src="images/dash2.png" alt="dashboard" class="img-responsive">
+        			</div>
+        		</div>
+
+        		<div class="grid grid__col grid__col--6">
+        			<div class="feature-product features-text wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+                        <h3 class="feature-product__name">Ivote</h3>
+                        <p class="feature-product__description">
+                            Ivote is a flexible web-based voting system that makes election less cumbersome. It can be used for school election, departmental and faculty elections, it can also be used in organisation elections where voting is required. ivote ships with voters and candidate registration modules, live view of election proceedings by electoral officers and collection of election result in different file formats.
+    	    			</p>
+
+    	    			<div class="feature-product__button-container">
+    	    				<a class="feature-product__link button button--default button--small" href="http://www.ivote.redehub.com.ng" target="_blank">Read More</a>
+    	    			</div>    				
+                    </div>
+        		</div>
+
+
+        	</div>
+        	<div class="clear"></div>
+        </section> <!-- end products section -->
+
+
+        <!-- partners -->
+        <section id="partners" class="page-section page-section__partners">
+        	<div class="container">
+        		<div class="partners">
+
+    			    <div class="partners__brand">
+                        <a href="http://www.lampbearers.com" target="_blank">
+        			    	<img src="images/labis.png" alt="lamp bearers logo" height="85">
+                        </a>
+    			    </div>
+    			    <div class="partners__brand" style="text-align: center;">
+    			    	<a href="http://pinkladybathandbody.com/" target="_blank">
+                            <img src="images/pinklady.jpeg" alt="images" height="85">
+                        </a>
+    			    </div>
+
+    			    <div class="partners__brand">
+                        <a href="http://pinkladybathandbody.com/" target="_blank">
+                            <img src="images/logo.gif" alt="images" width="300">
+                        </a>
+                    </div>
+                    <div class="partners__brand">
+                        <a href="http://pinkladybathandbody.com/" target="_blank">
+                            <img src="images/logo.gif" alt="images" width="300">
+                        </a>
+                    </div>
+                    <div class="partners__brand">
+                        <a href="http://pinkladybathandbody.com/" target="_blank">
+                            <img src="images/logo.gif" alt="images" width="300">
+                        </a>
+                    </div>
+                    <div class="partners__brand">
+                        <a href="http://pinkladybathandbody.com/" target="_blank">
+                            <img src="images/logo.gif" alt="images" width="300">
+                        </a>
+                    </div>
+                    <div class="partners__brand">
+                        <a href="http://pinkladybathandbody.com/" target="_blank">
+                            <img src="images/logo.gif" alt="images" width="300">
+                        </a>
+                    </div>
+                    <div class="partners__brand">
+                        <a href="http://pinkladybathandbody.com/" target="_blank">
+                            <img src="images/logo.gif" alt="images" width="300">
+                        </a>
+                    </div>
+                    <div class="partners__brand">
+                        <a href="http://pinkladybathandbody.com/" target="_blank">
+        			    	<img src="images/logo.gif" alt="images" width="300">
+                        </a>
+    			    </div>
+
+    			    		    
+    			    
     			</div>
-    		</div>
+        	</div>
+        	<div class="clear"></div>
+        </section>
 
-    		
-
-    		<div class="grid grid__col grid__col--6">
-    			<div class="feature-product__image wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-    				<img src="images/dash2.png" alt="dashboard" class="img-responsive">
-    			</div>
-    		</div>
-
-    		<div class="grid grid__col grid__col--6">
-    			<div class="feature-product features-text wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
-                    <h3 class="feature-product__name">Ivote</h3>
-                    <p class="feature-product__description">
-                        Ivote is a flexible web-based voting system that makes election less cumbersome. It can be used for school election, departmental and faculty elections, it can also be used in organisation elections where voting is required. ivote ships with voters and candidate registration modules, live view of election proceedings by electoral officers and collection of election result in different file formats.
-	    			</p>
-
-	    			<div class="feature-product__button-container">
-	    				<a class="feature-product__link button button--default button--small" href="http://www.ivote.redehub.com.ng" target="_blank">Read More</a>
-	    			</div>    				
-                </div>
-    		</div>
+        <!-- end partners -->
 
 
-    	</div>
-    	<div class="clear"></div>
-    </section> <!-- end products section -->
+        <!-- contact us -->
+        <section id="contact" class="page-section page-section--contact">
+        	<div class="container"> 
+
+        		<div class="">
+    		      <div class="grid__col grid__col--12">
+    		        <header class="page-section-header">
+    		          <h2 class="page-section-header__primary-title">What would you like us to do for you?</h2>
+    		            <h3 class="page-section-header__secondary-title">with our world class team, we are sure of helping your business grow</h3>
+    		        </header>
+    		        <div class="contact-button">
+    		        	<a href="mailto:redehubng@gmail.com" class="button button--default button--large">Contact Us!</a>
+    		        </div>
+    		        
+    		      </div>
+    		    </div>
 
 
-    <!-- partners -->
-    <section id="partners" class="page-section page-section__partners">
-    	<div class="container">
-    		<div class="partners">
+        	</div>
+        	<div class="clear"></div>
+        </section>
 
-			    <div class="partners__brand">
-                    <a href="http://www.lampbearers.com" target="_blank">
-    			    	<img src="images/labis.png" alt="lamp bearers logo" height="85">
-                    </a>
-			    </div>
-			    <div class="partners__brand" style="text-align: center;">
-			    	<a href="http://pinkladybathandbody.com/" target="_blank">
-                        <img src="images/pinklady.jpeg" alt="images" height="85">
-                    </a>
-			    </div>
+        <!-- footer -->
+        <section class="page-section page-section-footer">
+        	<div class="container">
+        			<div class="grid__col grid__col--3">
+        				
+        				<h4 class="page-section-footer__title">Services</h4> 
 
-			    <div class="partners__brand">
-                    <a href="http://pinkladybathandbody.com/" target="_blank">
-                        <img src="images/logo.gif" alt="images" width="300">
-                    </a>
-                </div>
-                <div class="partners__brand">
-                    <a href="http://pinkladybathandbody.com/" target="_blank">
-                        <img src="images/logo.gif" alt="images" width="300">
-                    </a>
-                </div>
-                <div class="partners__brand">
-                    <a href="http://pinkladybathandbody.com/" target="_blank">
-                        <img src="images/logo.gif" alt="images" width="300">
-                    </a>
-                </div>
-                <div class="partners__brand">
-                    <a href="http://pinkladybathandbody.com/" target="_blank">
-                        <img src="images/logo.gif" alt="images" width="300">
-                    </a>
-                </div>
-                <div class="partners__brand">
-                    <a href="http://pinkladybathandbody.com/" target="_blank">
-                        <img src="images/logo.gif" alt="images" width="300">
-                    </a>
-                </div>
-                <div class="partners__brand">
-                    <a href="http://pinkladybathandbody.com/" target="_blank">
-                        <img src="images/logo.gif" alt="images" width="300">
-                    </a>
-                </div>
-                <div class="partners__brand">
-                    <a href="http://pinkladybathandbody.com/" target="_blank">
-    			    	<img src="images/logo.gif" alt="images" width="300">
-                    </a>
-			    </div>
+        				<ul class="page-section-footer__menu">
 
-			    		    
-			    
-			</div>
-    	</div>
-    	<div class="clear"></div>
-    </section>
+        					<li class="page-section-footer__item">
+        						<a class="page-section-footer__link" href="http://www.schoolite.redehub.com.ng" target="_blank">Schoolite</a>
+        					</li>
 
-    <!-- end partners -->
+        					<li class="page-section-footer__item">
+        						<a class="page-section-footer__link" target="_blank" href="#">Ivote</a>
+        					</li>
 
+        					<li class="page-section-footer__item">
+        						<a class="page-section-footer__link" href="#services">Web Development</a>
+        					</li>
 
-    <!-- contact us -->
-    <section id="contact" class="page-section page-section--contact">
-    	<div class="container"> 
+        					<li class="page-section-footer__item">
+        						<a class="page-section-footer__link" href="#services">Training</a>
+        					</li>
+        					<li class="page-section-footer__item">
+        						<a class="page-section-footer__link" href="#services">Design &amp; Publication</a>
+        					</li>
+        					
+        				</ul>
+        			</div>
+        			
+        			<div class="grid__col grid__col--3">
+                        <h4 class="page-section-footer__title">Resources</h4>
+                        <ul class="page-section-footer__menu">
 
-    		<div class="">
-		      <div class="grid__col grid__col--12">
-		        <header class="page-section-header">
-		          <h2 class="page-section-header__primary-title">What would you like us to do for you?</h2>
-		            <h3 class="page-section-header__secondary-title">with our world class team, we are sure of helping your business grow</h3>
-		        </header>
-		        <div class="contact-button">
-		        	<a href="mailto:redehubng@gmail.com" class="button button--default button--large">Contact Us!</a>
-		        </div>
-		        
-		      </div>
-		    </div>
+                            <li class="page-section-footer__item">
+                                <a class="page-section-footer__link" href="https://demo.redehub.com.ng">Demo</a>
+                            </li>
+
+                            <li class="page-section-footer__item">
+                                <a class="page-section-footer__link" target="_blank" href="https://redehubng.slack.com">slack channel</a>
+                            </li>
+
+                            <li class="page-section-footer__item">
+                                <a class="page-section-footer__link" href="#">Privacy &amp; Terms</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    
+
+        			<div class="grid__col grid__col--3">
+                        <h4 class="page-section-footer__title">Address</h4>
+                        <ul class="page-section-footer__menu">
+
+                            <li class="page-section-footer__item">
+                                <p>new extension market,
+                                 gonin-gora, kaduna.
+                                </p>
+                            </li>
+
+                            <li class="page-section-footer__item">
+                                <p>08073697984 | 08136486388</p>
+                            </li>
+
+                            <li class="page-section-footer__item">
+                                <a class="page-section-footer__link" href="mailto:contact@redehub.com.ng">contact@redehub.com.ng</a>
+                            </li>
+
+                        </ul>
+                    </div>
 
 
-    	</div>
-    	<div class="clear"></div>
-    </section>
+                    <div class="grid__col grid__col--3">
+        				<h4 class="page-section-footer__title">Latest Tweets</h4>
 
-    <!-- footer -->
-    <section class="page-section page-section-footer">
-    	<div class="container">
-    			<div class="grid__col grid__col--3">
-    				
-    				<h4 class="page-section-footer__title">Services</h4> 
-
-    				<ul class="page-section-footer__menu">
-
-    					<li class="page-section-footer__item">
-    						<a class="page-section-footer__link" href="http://www.schoolite.redehub.com.ng" target="_blank">Schoolite</a>
-    					</li>
-
-    					<li class="page-section-footer__item">
-    						<a class="page-section-footer__link" target="_blank" href="#">Ivote</a>
-    					</li>
-
-    					<li class="page-section-footer__item">
-    						<a class="page-section-footer__link" href="#services">Web Development</a>
-    					</li>
-
-    					<li class="page-section-footer__item">
-    						<a class="page-section-footer__link" href="#services">Training</a>
-    					</li>
-    					<li class="page-section-footer__item">
-    						<a class="page-section-footer__link" href="#services">Design &amp; Publication</a>
-    					</li>
-    					
-    				</ul>
-    			</div>
-    			
-    			<div class="grid__col grid__col--3">
-                    <h4 class="page-section-footer__title">Resources</h4>
-                    <ul class="page-section-footer__menu">
-
-                        <li class="page-section-footer__item">
-                            <a class="page-section-footer__link" href="https://demo.redehub.com.ng">Demo</a>
-                        </li>
-
-                        <li class="page-section-footer__item">
-                            <a class="page-section-footer__link" target="_blank" href="https://redehubng.slack.com">slack channel</a>
-                        </li>
-
-                        <li class="page-section-footer__item">
-                            <a class="page-section-footer__link" href="#">Privacy &amp; Terms</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-
-                
-
-    			<div class="grid__col grid__col--3">
-                    <h4 class="page-section-footer__title">Address</h4>
-                    <ul class="page-section-footer__menu">
-
-                        <li class="page-section-footer__item">
-                            <p>new extension market,
-                             gonin-gora, kaduna.
-                            </p>
-                        </li>
-
-                        <li class="page-section-footer__item">
-                            <p>08073697984 | 08136486388</p>
-                        </li>
-
-                        <li class="page-section-footer__item">
-                            <a class="page-section-footer__link" href="mailto:contact@redehub.com.ng">contact@redehub.com.ng</a>
-                        </li>
-
-                    </ul>
-                </div>
-
-
-                <div class="grid__col grid__col--3">
-    				<h4 class="page-section-footer__title">Latest Tweets</h4>
-
-    				<a class="twitter-timeline" data-height="300" data-theme="dark" href="https://twitter.com/redehubng">Tweets by redehubng</a> 
-    			</div>
+        				<a class="twitter-timeline" data-height="300" data-theme="dark" href="https://twitter.com/redehubng">Tweets by redehubng</a> 
+        			</div>
 
 
 
-    			<div class="grid__col grid__col--12">
-    				<p class="page-section-footer__copyright">
-    					copyright &copy; 2017 Made with &#10084; by 
-                         <i>
-                             <a class="page-section-footer__link" href="http://www.redehub.com.ng" target="_blank">redehub.com.ng</a>
-                         </i>
-    				</p>
-    			</div>
+        			<div class="grid__col grid__col--12">
+        				<p class="page-section-footer__copyright">
+        					copyright &copy; 2017 Made with &#10084; by 
+                             <i>
+                                 <a class="page-section-footer__link" href="http://www.redehub.com.ng" target="_blank">redehub.com.ng</a>
+                             </i>
+        				</p>
+        			</div>
 
-    		</div>
-    	<div class="clear"></div>
-    </section>
+        		</div>
+        	<div class="clear"></div>
+        </section>
+    </div>
 
 
 <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
@@ -404,26 +435,9 @@
 <script src="js/wow.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick/slick.js"></script>
+<script type="text/javascript" src="js/slideout.min.js"></script>
+<script type="text/javascript" src="js/twitter-widget.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-
-<script>
-window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
-
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));
-</script>
 
 <script>
 

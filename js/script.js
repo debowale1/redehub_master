@@ -38,10 +38,10 @@ $(document).ready(function(){
   });
 
 
-  // to toggle menu items on mobile viewports
-  $('.hamburger').on('click', function(){
-    $('.global-nav__menu').toggleClass('show');
-  });
+  // // to toggle menu items on mobile viewports
+  // $('.hamburger').on('click', function(){
+  //   $('.global-nav__menu').toggleClass('show');
+  // });
 
 
     //Check to see if the window is top if not then display button
@@ -76,6 +76,25 @@ $(function() {
       }
     }
   });
+});
+
+// slideout mobile slider
+ $(function(){
+    //Mobile slider
+    var slideout = new Slideout({
+      'panel': document.getElementById('main'),
+      'menu': document.getElementById('mobile-menu'),
+      'padding': 256,
+      'side': 'right',
+      'tolerance': 70
+    });
+
+    // Toggle button
+    $('.hamburger').on('click', function() {
+        $('#mobile-menu').fadeToggle()
+        slideout.toggle();
+    });
+
 });
 
 
