@@ -70,9 +70,10 @@ h1, h2, h3, h4, h5, h6, div, p, ul {
 .grid {
 	display: inline-block;
 	width: 100%;
-	box-sizing: border-box;
-	padding: 5px 0 5px 10px;
-	display: flex;
+	position: relative;
+	/*box-sizing: border-box;*/
+	/*padding: 5px 0 5px 10px;*/
+	/*display: flex;*/
 }
 
 /*.grid__with-gutters {
@@ -226,6 +227,8 @@ h1, h2, h3, h4, h5, h6, div, p, ul {
 	text-align: center;
 	padding-top: 30px;
 }
+
+
 .button {
 	display: inline-block;
     text-decoration: none;
