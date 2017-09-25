@@ -1,66 +1,55 @@
 $(document).ready(function(){
-  $('.partners').slick({
 
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
+
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    lazyLoad:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        400:{
+            items:2,
+            nav:false
+        },
+        800:{
+            items:3,
+            nav:false,
+            loop:false
+        },
+        1000:{
+            items:4,
+            nav:false,
+            loop:false
+        }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-
+});
+  
+  //Check to see if the window is top if not then display button
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+      $('.top').fadeIn();
+    } else {
+      $('.top').fadeOut();
+    }
+  });
+  
+  //Click event to scroll to top
+  $('.top').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
   });
 
-
-  // // to toggle menu items on mobile viewports
-  // $('.hamburger').on('click', function(){
-  //   $('.global-nav__menu').toggleClass('show');
-  // });
-
-
-    //Check to see if the window is top if not then display button
-    $(window).scroll(function(){
-      if ($(this).scrollTop() > 100) {
-        $('.top').fadeIn();
-      } else {
-        $('.top').fadeOut();
-      }
-    });
-    
-    //Click event to scroll to top
-    $('.top').click(function(){
-      $('html, body').animate({scrollTop : 0},800);
-      return false;
-    });
-
   });
-
+//end document ready function
 
 //to slide slowly to the named anchor
 $(function() {
